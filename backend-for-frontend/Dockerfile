@@ -1,6 +1,6 @@
 # Dockerfile for sample service using embedded tomcat server
 
-FROM centos:centos7
+FROM amazonlinux:2
 MAINTAINER funadab
 
 RUN yum install -y \
