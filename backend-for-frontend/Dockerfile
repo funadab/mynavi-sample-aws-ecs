@@ -4,8 +4,8 @@ FROM centos:centos7
 MAINTAINER funadab
 
 RUN yum install -y \
-       java-11-openjdk \
-       java-11-openjdk-devel \
+       java-1.8.0-openjdk \
+       java-1.8.0-openjdk-devel \
        wget tar iproute git
 
 RUN wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
