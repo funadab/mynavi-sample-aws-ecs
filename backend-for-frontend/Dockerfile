@@ -5,6 +5,7 @@ MAINTAINER funadab
 
 RUN yum install -y \
        java-11-openjdk \
+       java-11-openjdk-devel \
        wget tar iproute git
 
 RUN wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
