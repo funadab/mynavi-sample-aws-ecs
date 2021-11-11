@@ -4,8 +4,7 @@ FROM amazonlinux:2
 MAINTAINER funadab
 
 RUN yum install -y \
-       java-1.8.0-openjdk \
-       java-1.8.0-openjdk-devel \
+       java-11-openjdk \
        wget tar iproute git
 
 RUN wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
